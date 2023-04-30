@@ -13,6 +13,5 @@ elif num < 0:
 elif num == 0:
     print("O número é zero")
 
-
 else:
     print("Não é um número")
