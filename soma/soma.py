@@ -5,4 +5,4 @@ num2 = int(input("infomre segundo número "))
 
 soma = (num1 + num2)
 
-print("A soma dos dois números é: " +soma)
+print("A soma dos dois números é: ", +soma)
