@@ -1,13 +1,12 @@
 # somando os valores de uma lista numerica
 
-op = 'c'
 soma = []
-
-while op =='c' or op =='C':
+op = 'c'
+while op == 'c' or op == 'C':
     soma = int(input("Infomre um numero: "))
-    op = input("digite c para continuar: ")
-
+    op = input("Continuar? ")
+    
 for i in soma:
-    soma +=i
+    somatoria = i + i
 
-print(soma)
+print(somatoria)
